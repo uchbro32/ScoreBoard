@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Match Maker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section class="card">
+        <header class="card-header">
+            <p class="card-header-title">
+                Match Maker
+            </p>
+        </header>
+        <div class="card-content">
+            <div class="content">
+                <img src="2.jpg" alt="PingPong">
+                <div class="flex-container">
+                    <div class="score">
+                        <h1 id='f'>0</h1>  - <h1 id='s'>0</h1>
+                    </div>
+                </div>
+                <label for="winninng_score">How many points: </label>
+                <select name="winninng_score" id="winninng_score">
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <div class="next_rnd">
+                        <button class="card-footer-item">Next Round</button>
+                    </div>
+                </select>
+            </div>
+        </div>
+        <footer class="card-footer">
+            <button id="st" class="card-footer-item">Score_1</button>
+            <button id="nd" class="card-footer-item">Score_2</button>
+            <button id="rd" class="card-footer-item">Reset</button>
+        </footer>
+    </section>
+    <div>
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
